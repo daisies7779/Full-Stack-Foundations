@@ -6,6 +6,8 @@
 # cd /c/eo/udacity/FullStackFoundations/fullstack-nanodegree-vm-master/gitHubMatherial/Full-Stack-Foundations/Lesson_1
 # execfile('fileOrder.txt')
 
+
+execfile('removeDatabase.py')
 execfile('database_setup.py')
 execfile('initiateSession.py')
 execfile('createFirstRestaurant.py')
@@ -14,3 +16,4 @@ execfile('itemQuery.py')
 execfile('veggieBurgersQuery.py')
 execfile('veggieBurgersChangePriceQuery.py')
 execfile('veggieBurgersChangePriceAllRestaurantsQuery.py')
+execfile('deleteSpinach.py')
