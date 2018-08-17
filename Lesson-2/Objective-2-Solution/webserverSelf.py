@@ -1,3 +1,5 @@
+# This is my own try to make exercise based on copy of Objective-1-Solution.
+
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 import cgi
 
@@ -27,6 +29,12 @@ class webServerHandler(BaseHTTPRequestHandler):
                 for restaurant in restaurants:
                     output += restaurant.name
                     output += "</br>"
+                    # Objective 2 -- Add Edit and Delete Links
+                    output += "<a href ='#' >Edit </a> "
+                    output += "</br>"
+                    output += '''<a href="#">Delete</a>'''
+                    output += "</br></br></br>"
+                    
 
                 output += "</body></html>"
                 self.wfile.write(output)

@@ -3,7 +3,7 @@
 # before executrio consider to delete restaurantmenu.db
 # because adding in a wrong order or repeatedly items will change they id and 
 # some tasks will be done with a difference in data from original
-# cd /c/eo/udacity/FullStackFoundations/fullstack-nanodegree-vm-master/gitHubMatherial/Full-Stack-Foundations/Lesson_1
+# cd /c/eo/udacity/FullStackFoundations/fullstack-nanodegree-vm-master/gitHubMatherial/Full-Stack-Foundations/Lesson-2
 # execfile('fileOrder.txt')
 
 
